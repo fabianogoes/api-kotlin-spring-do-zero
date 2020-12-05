@@ -20,5 +20,6 @@ _ Spring Data
 
 ## Roadmap   
 1. [x] [Como criar uma Web API com Kotlin e Spring do Zero, usando banco de dados em memória usando uma abordagem funcional.](https://youtu.be/Usq-HeeJ6so)
-2. [ ] Refatorar separando em camandas utilizando testes integrados.
-3. [ ] Documentar a API com Open API 3 e Swagger.
+2. [x] Refatorar e Implemnetar testes integrados.
+3. [ ] Refatorar e Separar em Camadas.   
+4. [ ] Documentar a API com Open API 3 e Swagger.
