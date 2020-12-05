@@ -1,5 +1,7 @@
 package com.eprogramar.bank
 
+import com.eprogramar.bank.Account
+import com.eprogramar.bank.AccountRepository
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
@@ -9,6 +11,7 @@ import org.springframework.web.bind.annotation.*
 class AccountController(private val repository: AccountRepository) {
 
     @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
     fun create(@RequestBody account: Account): Account = repository.save(account)
 
     @GetMapping
