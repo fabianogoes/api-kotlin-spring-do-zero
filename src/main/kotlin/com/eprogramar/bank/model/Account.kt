@@ -1,4 +1,4 @@
-package com.eprogramar.bank
+package com.eprogramar.bank.model
 
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue
