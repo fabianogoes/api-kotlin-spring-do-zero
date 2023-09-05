@@ -23,4 +23,4 @@ _ Spring Data
 2. [x] [Refatorar e Implemnetar testes integrados.](https://youtu.be/MUm09huMcIU)
 3. [x] [Refatorar e Separar em Camadas.](https://youtu.be/KG_b6YJeekI)   
 4. [x] [Validação e Exception Handler.](https://youtu.be/1xOvZ51LhYA)   
-4. [ ] Documentar a API com Open API 3 e Swagger.
+4. [x] Documentar a API com Open API 3 e Swagger.
